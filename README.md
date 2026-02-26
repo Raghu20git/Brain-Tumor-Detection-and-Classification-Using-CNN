@@ -78,6 +78,8 @@ The system is designed for research and educational purposes only and is not int
 
 Brain Tumor Detection & Classification Using CNN/
 │
+├── .vscode
+│   └── settings.json
 ├── AI_Reports
 ├── Checkpoints
 ├── Dataset/

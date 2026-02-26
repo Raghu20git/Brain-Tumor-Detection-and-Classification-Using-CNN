@@ -101,15 +101,15 @@ Run "py -3.10 -m venv venv" in the Powershell (Open the Powershell in the projec
 
 Run ".\venv\Scripts\Activate" in the Powershell (Open the Powershell in the project folder)
 
-### Do NOT rely on requirements.txt to install torch, torchvision & torchaudio if you want to use NVIDIA GPU (CUDA supported).
+### 3. Do NOT rely on requirements.txt to install torch, torchvision & torchaudio if you want to use NVIDIA GPU (CUDA supported).
 Instead do:
 Step 1 — install CUDA PyTorch manually by running "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121" in the Powershell (Open the Powershell in the project folder)
 Step 2 — install the rest by running "pip install -r requirements.txt" in the Powershell (Open the Powershell in the project folder)
 
-### Default (Works Everywhere):
+### 4. Default (Works Everywhere):
 Step 1 — Run "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu" in the Powershell (Open the Powershell in the project folder)
 Step 2 — Run "pip install -r requirements.txt" in the Powershell (Open the Powershell in the project folder)
 
-### Register Jupyter kernel:
+### 5. Register Jupyter kernel:
 Run "python -m ipykernel install --user --name brain_tumor_py310 --display-name "Python 3.10 (BrainTumor)" in the Powershell (Open the Powershell in the project folder)
 

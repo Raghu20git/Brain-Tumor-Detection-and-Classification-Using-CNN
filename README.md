@@ -23,7 +23,7 @@ The system is designed for research and educational purposes only and is not int
 - Brain Tumor MRI Dataset: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 
 
-## Methodology
+## Methodology (Transfer Learning)
 
 - Data cleaning performed to remove corrupted, duplicate, and blank MRI images
 - Images resized to 224×224, normalized, and converted to tensors during preprocessing

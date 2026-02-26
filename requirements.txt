@@ -1,0 +1,25 @@
+# ===== Numerical & ML =====
+numpy
+scikit-learn
+
+# ===== Image processing =====
+pillow
+opencv-python
+
+# ===== Visualization =====
+matplotlib
+seaborn
+tqdm
+
+# ===== Model =====
+efficientnet_pytorch
+
+# ===== Explainability =====
+grad-cam
+
+# ===== PDF report generation =====
+reportlab
+
+# ===== Notebook support =====
+jupyter
+ipykernel
